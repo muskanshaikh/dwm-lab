@@ -35,3 +35,5 @@ while True:
   if np.linalg.norm(diff)<eps:
     break
   R=Rnext
+  
+print(Rnext)
